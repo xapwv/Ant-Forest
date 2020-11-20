@@ -22,6 +22,7 @@ if (_config.base_on_image) {
 }
 let BaseScanner = require('./BaseScanner.js')
 
+
 function Ant_forest () {
   const _package_name = 'com.eg.android.AlipayGphone'
   let _base_scanner = new BaseScanner()
